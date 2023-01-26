@@ -2,5 +2,6 @@
 
 int main()
 {
-    std::cout << "Hello world!" << std::endl;
+    const std::string gretting{ "Hello World!" };
+    std::cout << gretting << std::endl;
 }
